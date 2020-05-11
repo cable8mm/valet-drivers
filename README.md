@@ -4,6 +4,13 @@
 
 이 저장소는 지원이 이미 끝난 코드나 혹은 한국에서 사용되는 게시판 등을 지원합니다.
 
+# Usage
+
+```sh
+cd ~/.config/valet/Drivers
+git clone git@github.com:cable8mm/valet-drivers.git ./
+```
+
 # 지원
 
 - CakePHP 2.x
