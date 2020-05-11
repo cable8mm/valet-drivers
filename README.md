@@ -11,7 +11,7 @@ cd ~/.config/valet/Drivers
 git clone git@github.com:cable8mm/valet-drivers.git ./
 ```
 
-# 지원
+# Support
 
 - CakePHP 2.x
 - Zeroboard
