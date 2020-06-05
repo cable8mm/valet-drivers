@@ -13,7 +13,7 @@ class ZeroboardValetDriver extends ValetDriver
      */
     public function serves($sitePath, $siteName, $uri)
     {
-        return is_dir($sitePath.'/outlogin_skin');
+        return is_dir($sitePath . '/outlogin_skin');
     }
 
     /**
@@ -27,7 +27,7 @@ class ZeroboardValetDriver extends ValetDriver
      */
     public function isStaticFile($sitePath, $siteName, $uri)
     {
-        if (file_exists($staticFilePath = $sitePath.'/'.$uri)) {
+        if (file_exists($staticFilePath = $sitePath . '/' . $uri)) {
             return $staticFilePath;
         }
 
@@ -46,10 +46,10 @@ class ZeroboardValetDriver extends ValetDriver
     public function frontControllerPath($sitePath, $siteName, $uri)
     {
         $_SERVER['DOCUMENT_ROOT'] = $sitePath;
-        $_SERVER['SCRIPT_FILENAME'] = $sitePath.'index.php';
+        $_SERVER['SCRIPT_FILENAME'] = $sitePath . 'index.php';
         $_SERVER['SCRIPT_NAME'] = 'index.php';
         $_SERVER['PHP_SELF'] = '/index.php';
 
-        return $sitePath.'/index.php';
+        return $sitePath . '/index.php';
     }
 }
