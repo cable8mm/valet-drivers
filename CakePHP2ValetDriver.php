@@ -13,7 +13,7 @@ class CakePHP2ValetDriver extends ValetDriver
      */
     public function serves($sitePath, $siteName, $uri)
     {
-        return is_dir($sitePath . '/lib/Cake');
+        return is_dir($sitePath.'/lib/Cake');
     }
 
     /**
@@ -27,7 +27,7 @@ class CakePHP2ValetDriver extends ValetDriver
      */
     public function isStaticFile($sitePath, $siteName, $uri)
     {
-        if (file_exists($staticFilePath = $sitePath . '/app/webroot' . $uri)) {
+        if (file_exists($staticFilePath = $sitePath.'/app/webroot'.$uri)) {
             return $staticFilePath;
         }
 
@@ -45,15 +45,15 @@ class CakePHP2ValetDriver extends ValetDriver
      */
     public function frontControllerPath($sitePath, $siteName, $uri)
     {
-        $_SERVER['DOCUMENT_ROOT'] = $sitePath . '/app/webroot';
-        $_SERVER['SCRIPT_FILENAME'] = $sitePath . '/app/webroot/index.php';
+        $_SERVER['DOCUMENT_ROOT'] = $sitePath.'/app/webroot';
+        $_SERVER['SCRIPT_FILENAME'] = $sitePath.'/app/webroot/index.php';
         $_SERVER['SCRIPT_NAME'] = 'index.php';
         $_SERVER['PHP_SELF'] = 'index.php';
 
         if (preg_match('/\.php/', $uri)) {
-            return $sitePath . '/app/webroot/' . $uri;
+            return $sitePath.'/app/webroot/'.$uri;
         }
 
-        return $sitePath . '/app/webroot/index.php';
+        return $sitePath.'/app/webroot/index.php';
     }
 }
