@@ -1,10 +1,10 @@
 # CakePHP2 and Zeroboard Valet Herd Drivers
 
-[![code-style](https://github.com/cable8mm/valet-driver/actions/workflows/code-style.yml/badge.svg)](https://github.com/cable8mm/valet-driver/actions/workflows/code-style.yml)
-[![Packagist Version](https://img.shields.io/packagist/v/cable8mm/valet-driver)](https://packagist.org/packages/cable8mm/valet-driver)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/cable8mm/valet-driver)](https://packagist.org/packages/cable8mm/valet-driver/stats)
-[![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/cable8mm/valet-driver/php)](https://packagist.org/packages/cable8mm/valet-driver)
-[![Packagist License](https://img.shields.io/packagist/l/cable8mm/valet-driver)](https://github.com/cable8mm/valet-driver/blob/main/LICENSE.md)
+[![code-style](https://github.com/cable8mm/valet-drivers/actions/workflows/code-style.yml/badge.svg)](https://github.com/cable8mm/valet-drivers/actions/workflows/code-style.yml)
+[![Packagist Version](https://img.shields.io/packagist/v/cable8mm/valet-drivers)](https://packagist.org/packages/cable8mm/valet-drivers)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/cable8mm/valet-drivers)](https://packagist.org/packages/cable8mm/valet-drivers/stats)
+[![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/cable8mm/valet-drivers/php)](https://packagist.org/packages/cable8mm/valet-drivers)
+[![Packagist License](https://img.shields.io/packagist/l/cable8mm/valet-drivers)](https://github.com/cable8mm/valet-drivers/blob/main/LICENSE.md)
 
 Copy CakePHP2ValietDriver.php to your `~/.config/valet/Drivers` for Laravel Valet or `~/Library/Application Support/Herd/config/valet/Drivers` for Herd folder after having setup [Custom Valet Driver](https://laravel.com/docs/10.x/valet#custom-valet-drivers).
 
