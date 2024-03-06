@@ -15,15 +15,13 @@ Copy CakePHP2ValetDriver.php to your `~/.config/valet/Drivers` folder for Larave
 
 ## Usage
 
-### Cloning
+### Installation
 
 ```sh
-git clone git@github.com:cable8mm/valet-drivers.git
-
-cd valet-drivers
+composer create-project cable8mm/valet-drivers
 ```
 
-### Copy
+### Install custom valet drivers
 
 ```sh
 composer valet
