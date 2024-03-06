@@ -1,6 +1,13 @@
 {
     "name": "cable8mm/valet-drivers",
-    "description": "CakePHP2 and Zeroboard valet driver collection",
+    "description": "CakePHP2 and Zeroboard valet drivers collection",
+    "keywords": [
+        "valet",
+        "driver",
+        "cakephp2",
+        "zeroboard"
+    ],
+    "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
