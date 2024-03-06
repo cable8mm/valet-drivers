@@ -6,12 +6,12 @@
 [![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/cable8mm/valet-drivers/php)](https://packagist.org/packages/cable8mm/valet-drivers)
 [![Packagist License](https://img.shields.io/packagist/l/cable8mm/valet-drivers)](https://github.com/cable8mm/valet-drivers/blob/main/LICENSE.md)
 
-Copy CakePHP2ValietDriver.php to your `~/.config/valet/Drivers` for Laravel Valet or `~/Library/Application Support/Herd/config/valet/Drivers` for Herd folder after having setup [Custom Valet Driver](https://laravel.com/docs/10.x/valet#custom-valet-drivers).
+Copy CakePHP2ValetDriver.php to your `~/.config/valet/Drivers` folder for Laravel/Valet, or to `~/Library/Application Support/Herd/config/valet/Drivers` folder for [Laravel Herd](https://herd.laravel.com/), after setting up a [Laravel/Valet](https://laravel.com/docs/10.x/valet).
 
 ## Features
 
 - [x] Support CakePHP2
-- [x] Zeroboard(not XpressEngine)
+- [x] Support Zeroboard(not XpressEngine)
 
 ## Usage
 
