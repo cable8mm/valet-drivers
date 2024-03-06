@@ -1,23 +1,54 @@
-[![StyleCI](https://github.styleci.io/repos/262949632/shield?branch=master&style=flat)](https://github.styleci.io/repos/262949632)
+# CakePHP2 and Zeroboard Valet Herd Drivers
 
-# Unofficial Custom Valet Driver Collection
+[![code-style](https://github.com/cable8mm/valet-driver/actions/workflows/code-style.yml/badge.svg)](https://github.com/cable8mm/valet-driver/actions/workflows/code-style.yml)
+[![Packagist Version](https://img.shields.io/packagist/v/cable8mm/valet-driver)](https://packagist.org/packages/cable8mm/valet-driver)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/cable8mm/valet-driver)](https://packagist.org/packages/cable8mm/valet-driver/stats)
+[![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/cable8mm/valet-driver/php)](https://packagist.org/packages/cable8mm/valet-driver)
+[![Packagist License](https://img.shields.io/packagist/l/cable8mm/valet-driver)](https://github.com/cable8mm/valet-driver/blob/main/LICENSE.md)
 
-라라벨 발렛 드라이버는 많은 프레임워크와 CMS를 지원하며, 지원하지 않는 프로젝트는 커스텀 드라이버를 만들어야 합니다.
+Copy CakePHP2ValietDriver.php to your `~/.config/valet/Drivers` for Laravel Valet or `~/Library/Application Support/Herd/config/valet/Drivers` for Herd folder after having setup [Custom Valet Driver](https://laravel.com/docs/10.x/valet#custom-valet-drivers).
 
-이 저장소는 지원이 이미 끝난 코드나 혹은 한국에서 사용되는 게시판 등을 지원합니다.
+## Features
 
-# Usage
+- [x] Support CakePHP2
+- [x] Zeroboard(not XpressEngine)
+
+## Usage
+
+### Cloning
 
 ```sh
-cd ~/.config/valet/Drivers
-git clone git@github.com:cable8mm/valet-drivers.git ./
+git clone git@github.com:cable8mm/valet-drivers.git
+
+cd valet-drivers
 ```
 
-# Support
+### Copy
 
-- CakePHP 2.x
-- Zeroboard
+```sh
+composer valet
+# copy drivers to valet custom drivers folder
 
-# Contacts
+composer herd
+#copy drivers to herd custom drivers folder
+```
 
-추가적인 드라이브 제작이나 버그는 언제든지 이슈로 등록 해 주세요.
+And visit your local site. Everything else is not required except for copying.
+
+### Formatting
+
+```bash
+composer lint
+# Modify all files to comply with the PSR-12.
+
+composer inspect
+# Inspect all files to ensure compliance with PSR-12.
+```
+
+### Test
+
+Testing the Valet driver is challenging; thus, if you encounter any issues, please create an issue to address your situation, and we'll resolve it promptly.
+
+## License
+
+The CakePHP2 and Zeroboard Valet Driver Collection is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

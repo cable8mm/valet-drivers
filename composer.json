@@ -1,0 +1,30 @@
+{
+    "name": "cable8mm/valet-drivers",
+    "description": "CakePHP2 and Zeroboard valet driver collection",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Valet\\Drivers\\Custom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sam Lee",
+            "email": "cable8mm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "laravel/valet": "^4.6"
+    },
+    "scripts": {
+        "valet": "cp src/* ~/.valet/Drivers/",
+        "herd": "cp src/* ~/Library/Application Support/Herd/config/valet/Drivers/",
+        "lint": "./vendor/bin/pint",
+        "inspect": "./vendor/bin/pint --test"
+    }
+}
