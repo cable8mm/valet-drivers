@@ -1,5 +1,15 @@
 # Release Notes
 
+## v2.1.0 - 2024-04-09
+
+### What's Changed
+
+* Revise the summary of this in the README by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/valet-drivers/pull/6
+* Update the installation method in the README by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/valet-drivers/pull/7
+* Create `DistStaticValetDriver` by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/valet-drivers/pull/8
+
+**Full Changelog**: https://github.com/cable8mm/valet-drivers/compare/v2.0.0...v2.1.0
+
 ## v2.0.0 - 2024-03-06
 
 ### What's Changed
