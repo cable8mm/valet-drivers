@@ -1,4 +1,4 @@
-# CakePHP2 and Zeroboard Valet Herd Drivers
+# Vite, CakePHP2 and Zeroboard Valet Herd Drivers
 
 [![code-style](https://github.com/cable8mm/valet-drivers/actions/workflows/code-style.yml/badge.svg)](https://github.com/cable8mm/valet-drivers/actions/workflows/code-style.yml)
 [![Packagist Version](https://img.shields.io/packagist/v/cable8mm/valet-drivers)](https://packagist.org/packages/cable8mm/valet-drivers)
@@ -10,6 +10,7 @@ Copy CakePHP2ValetDriver.php to your `~/.config/valet/Drivers` folder for Larave
 
 ## Features
 
+- [x] Support Vite and javascript framework to use `dist` folder
 - [x] Support CakePHP2
 - [x] Support Zeroboard(not XpressEngine)
 
