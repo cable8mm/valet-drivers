@@ -19,7 +19,7 @@ class DistStaticValetDriver extends LaravelValetDriver
      */
     public function isStaticFile(string $sitePath, string $siteName, string $uri)/*: string|false */
     {
-        if (file_exists($staticFilePath = $sitePath . '/dist/' . $uri)) {
+        if (file_exists($staticFilePath = $sitePath.'/dist/'.$uri)) {
             return $staticFilePath;
         }
 
@@ -34,6 +34,7 @@ class DistStaticValetDriver extends LaravelValetDriver
         if (substr($uri, -1) === '/') {
             $uri = 'index.html';
         }
+
         return $sitePath.'/dist/'.$uri;
     }
 }
