@@ -1,5 +1,13 @@
 # Release Notes
 
+## v2.1.1 - 2024-04-09
+
+### What's Changed
+
+* Fix a bug to be 404 when url is wrong by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/valet-drivers/pull/9
+
+**Full Changelog**: https://github.com/cable8mm/valet-drivers/compare/v2.1.0...v2.1.1
+
 ## v2.1.0 - 2024-04-09
 
 ### What's Changed
