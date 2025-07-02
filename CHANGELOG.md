@@ -1,5 +1,13 @@
 # Release Notes
 
+## v2.1.3 - 2025-07-02
+
+### What's Changed
+
+* Update readme file and lint by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/valet-drivers/pull/11
+
+**Full Changelog**: https://github.com/cable8mm/valet-drivers/compare/v2.1.2...v2.1.3
+
 ## v2.1.2 - 2024-04-09
 
 ### What's Changed
