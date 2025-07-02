@@ -17,7 +17,7 @@ class CakePHP2ValetDriver extends LaravelValetDriver
     /**
      * Determine if the incoming request is for a static file.
      */
-    public function isStaticFile(string $sitePath, string $siteName, string $uri)/*: string|false */
+    public function isStaticFile(string $sitePath, string $siteName, string $uri)/* : string|false */
     {
         if (file_exists($staticFilePath = $sitePath.'/app/webroot'.$uri)) {
             return $staticFilePath;
